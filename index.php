@@ -5,14 +5,14 @@
 <head> 
     <link rel="stylesheet" type="text/css" href="index.css">
     <title> 
-    Wind turbine item inspetion
+    Wind turbine item inspection
     </title> 
 </head> 
   
 
 <body > 
       
-    <h1 style="rgba(0,255,0,.75);"> 
+    <h1> 
     Turbine Safety check 
     </h1> 
       
@@ -20,7 +20,7 @@
     Wind turbine item inspection
 
     </h3> 
-      <form style="margin: 20px;" method="post"> 
+      <form  method="post"> 
         <input type="submit" name="button1"
                 class="button" value="Welcome Message" /> 
           
