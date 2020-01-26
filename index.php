@@ -21,25 +21,25 @@
 
     </h3> 
       <form  method="post"> 
-        <input type="submit" name="button1"
+        <input type="submit" name="welcomeButton"
                 class="button" value="Welcome Message" /> 
           
-        <input type="submit" name="button2"
+        <input type="submit" name="resultsButton"
                 class="button" value="Results" /> 
     </form> 
 
     <?php
-        if(array_key_exists('button1', $_POST)) { 
-            button1(); 
+        if(array_key_exists('welcomeButton', $_POST)) { 
+            welcomeButton(); 
         } 
-        else if(array_key_exists('button2', $_POST)) { 
-            button2(); 
+        else if(array_key_exists('resultsButton', $_POST)) { 
+            reusltsButton(); 
         } 
-        function button1() { 
+        function welcomeButton() { 
             echo "<h3>HI! My Name is Rhys Harries, 
             \n I hope you like my presentation<h3>"; 
         } 
-        function button2() {
+        function reusltsButton() {
           for ($i = 1; $i <= 100; $i++) {
             $result = "";
             if($i % 3 === 0) {$result .= "Coating Damage";}
