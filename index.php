@@ -18,9 +18,9 @@
       
     <h3> 
     Wind turbine item inspection
-
     </h3> 
-      <form  method="post"> 
+
+    <form  method="post"> 
         <input type="submit" name="welcomeButton"
                 class="button" value="Welcome Message" /> 
           
