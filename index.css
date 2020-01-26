@@ -48,3 +48,11 @@ h1{
   from{border-right-color: rgba(0,255,0,.75);}
   to{border-right-color: transparent;}
 }
+
+.button{
+  align-content: center;
+  height: 10%;
+  width: 25%;
+  background-color: white;
+  border-radius: 6px;
+}
